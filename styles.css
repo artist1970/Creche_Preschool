@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fffaf3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(90deg, #ffcc70, #ff9a9e);
+  width: 100%;
+  color: #333;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+#themeSelect {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+#dictionaryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
+
+.card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: #777;
+}
