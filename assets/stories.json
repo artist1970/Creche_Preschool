@@ -1,0 +1,13 @@
+// Stories
+const stories=[
+  {title:"The Cat Runs",lines:["See the cat run.","The cat runs fast.","The cat jumps high!"],img:"https://cdn-icons-png.flaticon.com/512/1998/1998592.png"},
+  {title:"The Sun Goes Down",lines:["The sun goes down.","The sky turns pink.","The stars come out."],img:"https://cdn-icons-png.flaticon.com/512/869/869869.png"},
+  {title:"Red Apples",lines:["I like red apples.","They are big and sweet.","I eat one every day."],img:"https://cdn-icons-png.flaticon.com/512/415/415733.png"},
+  {title:"The Dog Barks",lines:["The dog barks loud.","He sees a bird.","The bird flies away."],img:"https://cdn-icons-png.flaticon.com/512/616/616408.png"},
+  {title:"Happy Frog",lines:["A frog jumps in the pond.","He croaks and swims.","Splash! He is happy!"],img:"https://static.wixstatic.com/media/YOUR_FROG_IMAGE.png"},
+  {title:"The Blue Boat",lines:["The boat is blue.","It sails on the lake.","The water sparkles bright."],img:"https://cdn-icons-png.flaticon.com/512/616/616408.png"},
+  {title:"Rainy Day",lines:["Rain falls softly.","Puddles grow big.","We wear our boots!"],img:"https://cdn-icons-png.flaticon.com/512/1163/1163624.png"},
+  {title:"Birds Can Fly",lines:["Birds can fly high.","They sing in the trees.","They wake us in the morning."],img:"https://cdn-icons-png.flaticon.com/512/616/616430.png"},
+  {title:"The Big Balloon",lines:["I have a red balloon.","It floats in the sky.","Pop! It goes away!"],img:"https://cdn-icons-png.flaticon.com/512/616/616580.png"},
+  {title:"Snowy Morning",lines:["Snow falls white and soft.","We build a snowman.","He wears a hat and scarf."],img:"https://cdn-icons-png.flaticon.com/512/616/616606.png"}
+];
